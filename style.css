@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+   background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xMDAtdGFuZy0wOWItbmVvbmZyYW1lXzEuanBn.jpg');
+   font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  background-image: url('https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjUwMC10YXVzLTAxYS1yZXRyb2Z1dHVyaXNtYmFja2dyb3VuZF8xLmpwZw.jpg');
+  margin: 75px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 93px 11px #C300FF;
+  color: #fafad2;
+  padding: 64px;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.perfil-foto{
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+}
+
+.titulo{
+  margin-left: 36px;
+}
+
+.titulo h1{
+  font-weight: 900;
+  align-text: center;
+  font-size: 36px;
+  text-shadow: rgb(43, 149, 255) 4px 0px 0px, rgb(43, 149, 255) 3.87565px 0.989616px 0px, rgb(43, 149, 255) 3.51033px 1.9177px 0px, rgb(43, 149, 255) 2.92676px 2.72656px 0px, rgb(43, 149, 255) 2.16121px 3.36588px 0px, rgb(43, 149, 255) 1.26129px 3.79594px 0px, rgb(43, 149, 255) 0.282949px 3.98998px 0px, rgb(43, 149, 255) -0.712984px 3.93594px 0px, rgb(43, 149, 255) -1.66459px 3.63719px 0px, rgb(43, 149, 255) -2.51269px 3.11229px 0px, rgb(43, 149, 255) -3.20457px 2.39389px 0px, rgb(43, 149, 255) -3.69721px 1.52664px 0px, rgb(43, 149, 255) -3.95997px 0.56448px 0px, rgb(43, 149, 255) -3.97652px -0.432781px 0px, rgb(43, 149, 255) -3.74583px -1.40313px 0px, rgb(43, 149, 255) -3.28224px -2.28625px 0px, rgb(43, 149, 255) -2.61457px -3.02721px 0px, rgb(43, 149, 255) -1.78435px -3.57996px 0px, rgb(43, 149, 255) -0.843183px -3.91012px 0px, rgb(43, 149, 255) 0.150409px -3.99717px 0px, rgb(43, 149, 255) 1.13465px -3.8357px 0px, rgb(43, 149, 255) 2.04834px -3.43574px 0px, rgb(43, 149, 255) 2.83468px -2.82216px 0px, rgb(43, 149, 255) 3.44477px -2.03312px 0px, rgb(43, 149, 255) 3.84068px -1.11766px 0px, rgb(43, 149, 255) 3.9978px -0.132717px 0px;
+}
+
+.titulo h3{
+  font-weight: 400;
+  text-shadow: rgb(94, 152, 255) 2px 0px 0px, rgb(94, 152, 255) 1.75517px 0.958851px 0px, rgb(94, 152, 255) 1.0806px 1.68294px 0px, rgb(94, 152, 255) 0.141474px 1.99499px 0px, rgb(94, 152, 255) -0.832294px 1.81859px 0px, rgb(94, 152, 255) -1.60229px 1.19694px 0px, rgb(94, 152, 255) -1.97998px 0.28224px 0px, rgb(94, 152, 255) -1.87291px -0.701566px 0px, rgb(94, 152, 255) -1.30729px -1.5136px 0px, rgb(94, 152, 255) -0.421592px -1.95506px 0px, rgb(94, 152, 255) 0.567324px -1.91785px 0px, rgb(94, 152, 255) 1.41734px -1.41108px 0px, rgb(94, 152, 255) 1.92034px -0.558831px 0px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border-radius: 100px;
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+}
+
+.redeSocial {
+  align-self: flex-center;
+  border-radius: 60px;
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+  max-height: 50px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+}
+
+.gitHub {
+  align-self: flex-center;
+  border-radius: 60px;
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+  max-height: 50px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right top, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #a9b8ef, #a7b3f0, #a5aff1, #bbb4f7, #d1b8fb, #e6bdfe, #fac2ff);
+  box-shadow: 0px 0px 35px 11px #FFFFFF;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+}
+
+.projeto-titulo{
+  list-style: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projeto-item{
+  list-style-type: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 56px;
+}
+
+.projeto-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xMDAtdGFuZy0wN2MtbmVvbmZyYW1lXzEuanBn.jpg');
+}
+
+.dark .container{
+  background-image: url('https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xMDAtdGFuZy0yNGUtbmVvbmZyYW1lXzEuanBn.jpg');
+}
+
+.dark .projetos{
+  background-image: linear-gradient(to right top, #000000, #291e24, #4a3748, #665473, #7b75a3, #7f7bb4, #8182c5, #8289d6, #8570c4, #8956ae, #8d3794, #8e0076);
+  box-shadow: 0px 0px 35px 11px #86A8E7;
+}
+
+.dark .tema button{
+  background-color: #ECF4FF;
+  color: #000000;
+  box-shadow: 0px 0px 35px 11px #86A8E7;
+}
+
+.dark .perfil-foto{
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 0px 35px 11px #86A8E7;
+}
+
+.dark .redeSocial{
+  background-color: #ECF4FF;
+  color: #000000;
+  box-shadow: 0px 0px 35px 11px #86A8E7;
+}
+
+.dark .gitHub{
+  background-color: #ECF4FF;
+  color: #000000;
+  box-shadow: 0px 0px 35px 11px #86A8E7;
+}
